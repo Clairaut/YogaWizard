@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:orientation="vertical">
+
+    <!-- Name -->
+    <TextView
+        android:id="@+id/name"
+        android:layout_gravity="center_horizontal"
+        style="@style/course_name"></TextView>
+
+    <!-- Teacher -->
+    <TextView
+        android:id="@+id/teacher"
+        android:layout_gravity="center_horizontal"
+        android:text="Teacher"
+        style="@style/course_details"></TextView>
+
+    <!-- Type -->
+    <TextView
+        android:id="@+id/type"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Type"
+        style="@style/course_details" ></TextView>
+
+    <!-- Image -->
+    <ImageView
+        android:layout_width="160dp"
+        android:layout_height="202dp"
+        android:layout_gravity="center"
+        android:src="@drawable/logo"></ImageView>
+
+    <!-- Location -->
+    <TextView
+        android:id="@+id/location"
+        android:text="Location:"
+        android:layout_gravity="left"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        style="@style/course_details" ></TextView>
+
+    <!-- Date -->
+    <TextView
+        android:id="@+id/date"
+        android:text="Date:"
+        android:layout_gravity="left"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        style="@style/course_details" ></TextView>
+
+    <!-- Time -->
+    <TextView
+        android:id="@+id/time"
+        android:text="Time:"
+        android:layout_gravity="left"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        style="@style/course_details" ></TextView>
+
+    <!-- Duration -->
+    <TextView
+        android:id="@+id/duration"
+        android:text="Duration:"
+        android:layout_gravity="left"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        style="@style/course_details" ></TextView>
+
+    <!-- Capacity -->
+    <TextView
+        android:id="@+id/capacity"
+        android:text="Capacity:"
+        android:layout_gravity="left"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        style="@style/course_details" ></TextView>
+
+    <!-- Pricing -->
+    <TextView
+        android:id="@+id/pricing"
+        android:text="Pricing:"
+        android:layout_gravity="left"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        style="@style/course_details" ></TextView>
+
+    <!-- Description Box -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_gravity="center_horizontal"
+        android:paddingTop="20dp"
+        android:background="@drawable/rounded_background"
+        android:layout_margin="20dp">
+
+        <!-- Description -->
+        <TextView
+            android:id="@+id/description"
+            android:text="Description"
+            android:layout_gravity="left"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            style="@style/course_details" ></TextView>
+    </RelativeLayout>
+
+
+
+
+</LinearLayout>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:paddingTop="20dp"
+    tools:context=".HomeActivity">
+
+    <!-- App Logo -->
+    <ImageView
+        android:layout_width="358dp"
+        android:layout_height="292dp"
+        android:src="@drawable/logo">
+    </ImageView>
+
+    <!-- Courses Button -->
+    <Button
+        android:id="@+id/courseButton"
+        android:text="Available Courses"
+        app:backgroundTint="@color/pastel_pink"
+        style="@style/menu_button"/>
+
+    <!-- My Courses Button -->
+    <Button
+        android:id="@+id/myCourseButton"
+        android:text="My Courses"
+        app:backgroundTint="@color/pastel_pink"
+        style="@style/menu_button"/>
+
+</LinearLayout>

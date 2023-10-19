@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">YogaWizard</string>
+    <string name="buttonAvailableCourses">Available Courses</string>
+    <string name="buttonmyCourses">My Courses</string>
+</resources>
