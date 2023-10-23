@@ -14,11 +14,11 @@ public class CourseInfoActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_info);
 
-        // Initialzing UI
+        // Initializing UI
         Button backButton = findViewById(R.id.backButton);
         Button addButton = findViewById(R.id.addButton);
 
-        // Recieving selected data from course activity class
+        // Receiving selected data from course activity class
         CourseData selectedData = (CourseData) getIntent().getSerializableExtra("Selected Data");
 
         // Creating and displaying fragment
